@@ -1,0 +1,8 @@
+zuul:
+  routes:
+    hello:
+      path: /hello/world
+      url: https://www.google.com
+    hello-app:
+      path: /hello/app
+      url: https://www.bing.com
